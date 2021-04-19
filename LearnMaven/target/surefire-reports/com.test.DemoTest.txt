@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.test.DemoTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.682 sec <<< FAILURE!
+tearDown(com.test.DemoTest)  Time elapsed: 0.008 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+	expected [10] but found [20]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.test.DemoTest.tearDown(DemoTest.java:31)
+

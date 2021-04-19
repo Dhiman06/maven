@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="2">
+
+	<listeners>
+		<listener class-name="DataDrivenUSingTestNG.ListenerTopics" />
+	</listeners>
+	<test name="TestNgTest1">
+		<classes>
+			<class name="DataDrivenUSingTestNG.Listener" />
+		</classes>
+	</test>
+</suite>

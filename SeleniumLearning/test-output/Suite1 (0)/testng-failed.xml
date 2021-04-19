@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1 (0)]" guice-stage="DEVELOPMENT" verbose="2">
+  <test thread-count="5" name="TestNgTest1(failed)" verbose="2">
+    <classes>
+      <class name="DataDrivenUSingTestNG.PassFailSkipInTestNG">
+        <methods>
+          <include name="loginGmail"/>
+        </methods>
+      </class> <!-- DataDrivenUSingTestNG.PassFailSkipInTestNG -->
+    </classes>
+  </test> <!-- TestNgTest1(failed) -->
+</suite> <!-- Failed suite [Suite1 (0)] -->
